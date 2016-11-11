@@ -1,5 +1,5 @@
 # Basic React Boilerplate
-A minimal React Boilerplate using ES6, Webpack, Sass, and Axios.
+A minimal React Boilerplate with ES6 and Sass support using Webpack.
 
 ### How to run:
 
