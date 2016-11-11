@@ -4,7 +4,7 @@ class Footer extends Component {
 	render() {
 		return (
 			<footer>
-				<p>Here's your footer</p>
+				<img id="footer" src="http://www.clipartkid.com/images/493/foot-prints-pictures-cliparts-co-ye9t7R-clipart.png" />
 			</footer>
 		);
 	}

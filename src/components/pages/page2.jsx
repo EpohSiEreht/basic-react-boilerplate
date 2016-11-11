@@ -4,7 +4,10 @@ class PageTwo extends Component {
 	render() {
 		return (
 			<div>
-				THIS IS /PAGE2
+				<div className="description">
+					<h2>This is /page2</h2>
+					<p>This was routed using React Router</p>
+				</div>
 			</div>
 		)
 	}
