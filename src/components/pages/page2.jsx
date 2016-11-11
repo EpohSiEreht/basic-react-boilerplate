@@ -6,7 +6,7 @@ class PageTwo extends Component {
 			<div>
 				<div className="description">
 					<h2>This is /page2</h2>
-					<p>This was routed using React Router</p>
+					<p>This was routed using React Router on the client side.</p>
 				</div>
 			</div>
 		)
