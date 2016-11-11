@@ -9,17 +9,36 @@ header {
 	width: 100%;
 	display: flex;
 	align-items: center;
+	flex-wrap: nowrap;
+	justify-content: space-between;
 
-	#logo {
-		height: 50px;
-		width: auto;
-		margin: 0 15px;
+	.brand {
+		display: inline-flex;
+		align-items: center;
+		#logo {
+			height: 50px;
+			width: auto;
+			margin: 0 15px;
+		}
+
+		h1 {
+			color: #fff;
+			margin-top: 0px;
+			margin-bottom: 0px;
+		}
 	}
 
-	h1 {
-		color: #fff;
-		margin-top: 0px;
-		margin-bottom: 0px;
+	.links {
+		display: inline-flex;
+		justify-content: flex-end;
+		width: 150px;
+		margin: 20px;
+		list-style: none;
+
+		a {
+			color: white;
+			margin: 10px;
+		}
 	}
 }
 
