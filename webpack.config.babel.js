@@ -1,11 +1,11 @@
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
+import ExtractTextPlugin from 'extract-text-webpack-plugin';
 
 module.exports = {
 	entry: {
 		main: './src/main.jsx'
 	},
 	output: {
-		filename: './dist/scripts/[name].js'
+		filename: './dist/scripts/bundle.js'
 	},
 	webpack: true,
 	devtool: 'source-map',

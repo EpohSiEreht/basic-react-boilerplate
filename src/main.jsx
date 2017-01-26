@@ -4,7 +4,4 @@ import App from './components/app.jsx';
 import './styles/main.scss';
 
 
-ReactDOM.render(
-	<App />,
-	document.getElementById('app')
-);
+ReactDOM.render( <App />, document.getElementById('app') );
