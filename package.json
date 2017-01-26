@@ -5,7 +5,7 @@
   "main": "",
   "scripts": {
     "build": "./node_modules/webpack/bin/webpack.js -p",
-    "start": "open http://localhost:8080 && ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --progress --hot --colors --inline"
+    "start": "npm run build && ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --progress --hot --colors --inline --open"
   },
   "author": "David Lee",
   "license": "ISC",
