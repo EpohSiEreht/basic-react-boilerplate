@@ -8,11 +8,15 @@ A minimal React Boilerplate with ES6 and SASS support using Webpack.
 
 ### How to run:
 ####Development Environment [unminified]
-1. npm install
-2. npm run start:dev
+```
+npm install
+npm run start:dev
+```
 
 ####Production Environment [minified]
-1. npm install
-2. npm run start:prod
+```
+npm install
+npm run start:prod
+```
 
 ![alt text](http://www.lavalamp.biz/wp-content/uploads/2016/01/Lavalamplab_React_logo.png) ![alt text](https://www.uplabs.com/tools/babel.png) ![alt text](http://smarchal.com/assets/img/works/sass-queries.png)
