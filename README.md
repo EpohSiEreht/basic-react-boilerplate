@@ -2,9 +2,9 @@
 A minimal React Boilerplate with ES6 and SASS support using Webpack. 
 
 ### Why should you use this boilerplate?
-1. It's beginner friendly. 
+1. It's easy to use. 
 2. You can use ES6 and SASS.
-3. You can see changes immediately without having to manually reload the page.
+3. You can immediately see changes without having to manually reload the page.
 
 ### How to run:
 ####Development Environment [unminified]
