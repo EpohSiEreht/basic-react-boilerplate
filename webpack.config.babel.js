@@ -1,4 +1,5 @@
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
+import webpack from 'webpack';
 
 module.exports = {
 	entry: {

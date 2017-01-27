@@ -4,8 +4,10 @@
   "description": "",
   "main": "",
   "scripts": {
-    "build": "./node_modules/webpack/bin/webpack.js -p",
-    "start": "npm run build && ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --progress --hot --colors --inline --open"
+    "build:dev": "./node_modules/webpack/bin/webpack.js",
+    "start:dev": "npm run build:dev && ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --progress --hot --colors --inline --open",
+    "build:prod": "./node_modules/webpack/bin/webpack.js -p",
+    "start:prod": "npm run build:prod && ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --progress --hot --colors --inline --open"
   },
   "author": "David Lee",
   "license": "ISC",
